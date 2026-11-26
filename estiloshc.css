@@ -152,14 +152,11 @@ header .nav{
     box-shadow:0 14px 30px rgba(14,124,134,.25);       /* sombra más grande y con color */
 }
 
-/* El emoji también crece un poco */
-.feature span{
-    display:inline-block;            /* necesario para que transform funcione en un span */
-    transition:transform .3s ease;
-}
-.feature:hover span{
-    transform:scale(1.2) rotate(-6deg);   /* crece 20% y se inclina un poco */
-}
+
+
+
+
+
 
 /* ===== Tarjetas con foto de fondo ===== */
 .feature{
